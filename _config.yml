@@ -14,7 +14,7 @@ kramdown:
 title: Francisco Machado
 description: ITAMP Fellow | Harvard University
 
-baseurl: /flmachado.github.io #name of GitHub repository
+baseurl: / #name of GitHub repository
 url: "fmachado.eu" #custom url to be used instead of GitHub repository
 email: machado007@gmail.com
 
