@@ -21,7 +21,7 @@ Originally from Portugal, Physics has taken me through many places:
 
 See [research](research) for an overview of my research interests and [publications](publications) (or below) for a complete list of my publications.
 
-To contact me: fmachado at berkeley dot edu
+To contact me: fmachado at cfa dot harvard dot edu
 
 
 # Pre-prints
