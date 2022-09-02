@@ -32,7 +32,7 @@ To contact me: fmachado at berkeley dot edu
   {% unless pub.peerReview %}
   <li>
   <p> 
-      <a href="{{ pub.url | prepend: site.baseurl | prepend: site.url }}">  {{ pub.title }} 
+      <a href="{{ pub.url  }}">  {{ pub.title }} 
       </a> <br> 
       <span style="font-size:18px"> {{ pub.authors }} </span> <br> 
       <a href="{{ pub.arXivLink}}"> {{ pub.arXivId }} </a>
@@ -53,7 +53,7 @@ To contact me: fmachado at berkeley dot edu
   {% if pub.peerReview %}
   <li>
   <p>
-      <a href="{{ pub.url | prepend: site.baseurl | prepend: site.url }}">  {{ pub.title }} 
+      <a href="{{ pub.url  }}">  {{ pub.title }} 
       </a> <br> 
       <span style="font-size:18px"> {{ pub.authors }} </span> <br>
       {% if pub.arXivLink %}
