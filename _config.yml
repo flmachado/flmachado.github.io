@@ -1,0 +1,76 @@
+### your site title here
+
+lsi: false
+safe: true
+source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+title: Francisco Machado
+description: ITAMP Fellow | Harvard University
+
+baseurl: /flmachado.github.io #name of GitHub repository
+url: "fmachado.eu" #custom url to be used instead of GitHub repository
+email: machado007@gmail.com
+
+highlighter: rouge
+markdown: kramdown
+
+# Social media links in footer
+# facebook: "#"
+# twitter: "#"
+linkedin: "machado007"
+github: "flmachado"
+# researchgate: "#"
+orcid: "0000-0003-0068-5073"
+
+highlighter: rouge
+markdown: kramdown
+
+exclude:
+  - template*
+
+# Tracker
+analytics:
+
+#optimization -> compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+#collection
+collections:
+  projects:
+    output: true
+    permalink: /research/:path/
+  publications:
+    output: true
+    permalink: /publications/:path/
+
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+include:
+  - _pages
+
+exclude:
+  - README.md
+  - LICENSE.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-email-protect
+  - jekyll-target-blank

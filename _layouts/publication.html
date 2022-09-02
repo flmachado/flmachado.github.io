@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1> {{ page.title }} </h1>
+<span style="font-size:18px"> {{ page.authors }} </span> <br>
+<a href="{{ page.pubLink}}"> {{ page.pubName }} ({{ page.pubYear }}) </a> <br>
+<a href="{{ page.arXivLink}}"> {{ page.arXivId }} </a> <br>
+
+<h4 style="margin-bottom: -0.5cm"> Abstract </h4>
+{{content}}
+
+<!-- Comments only for posts -->

@@ -1,0 +1,7 @@
+---
+layout: default
+---
+
+{{content}}
+
+<!-- Comments only for posts -->

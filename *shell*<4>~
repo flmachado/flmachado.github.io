@@ -1,0 +1,623 @@
+[fmachado@localhost CSL_Preparation]$ cd 
+[fmachado@localhost ~]$ cd Dropbox/Website_Jekyll/
+[fmachado@localhost Website_Jekyll]$ $ sudo dnf install ruby-devel
+bash: $: command not found...
+[fmachado@localhost Website_Jekyll]$ sudo dnf install ruby-devel
+[sudo] password for fmachado: 
+Copr repo for alacritty owned by pschyska                                             1.8 kB/s | 341  B     00:00    
+Errors during downloading metadata for repository 'copr:copr.fedorainfracloud.org:pschyska:alacritty':
+  - Status code: 404 for https://download.copr.fedorainfracloud.org/results/pschyska/alacritty/fedora-35-x86_64/repodata/repomd.xml (IP: 2600:9000:20ea:aa00:4:bbc1:1840:93a1)
+Error: Failed to download metadata for repo 'copr:copr.fedorainfracloud.org:pschyska:alacritty': Cannot download repomd.xml: Cannot download repodata/repomd.xml: All mirrors were tried
+Copr repo for v4l2loopback owned by sentry                                            1.8 kB/s | 341  B     00:00    
+Errors during downloading metadata for repository 'copr:copr.fedorainfracloud.org:sentry:v4l2loopback':
+  - Status code: 404 for https://download.copr.fedorainfracloud.org/results/sentry/v4l2loopback/fedora-35-x86_64/repodata/repomd.xml (IP: 2600:9000:20ea:f200:4:bbc1:1840:93a1)
+Error: Failed to download metadata for repo 'copr:copr.fedorainfracloud.org:sentry:v4l2loopback': Cannot download repomd.xml: Cannot download repodata/repomd.xml: All mirrors were tried
+Ignoring repositories: copr:copr.fedorainfracloud.org:pschyska:alacritty, copr:copr.fedorainfracloud.org:sentry:v4l2loopback
+Last metadata expiration check: 1:27:44 ago on Sat 27 Aug 2022 05:47:32 PM EDT.
+Dependencies resolved.
+======================================================================================================================
+ Package                           Architecture          Version                         Repository              Size
+======================================================================================================================
+Installing:
+ ruby-devel                        x86_64                3.0.4-153.fc35                  updates                267 k
+Installing dependencies:
+ ruby                              x86_64                3.0.4-153.fc35                  updates                 40 k
+ ruby-libs                         x86_64                3.0.4-153.fc35                  updates                3.2 M
+ rubygem-json                      x86_64                2.6.2-200.fc35                  updates                 63 k
+ rubygem-psych                     x86_64                3.3.2-153.fc35                  updates                 50 k
+ rubygems                          noarch                3.2.33-153.fc35                 updates                255 k
+ rubypick                          noarch                1.1.1-15.fc35                   fedora                 9.9 k
+Installing weak dependencies:
+ ruby-default-gems                 noarch                3.0.4-153.fc35                  updates                 31 k
+ rubygem-bigdecimal                x86_64                3.0.0-153.fc35                  updates                 53 k
+ rubygem-bundler                   noarch                2.2.33-153.fc35                 updates                373 k
+ rubygem-io-console                x86_64                0.5.7-153.fc35                  updates                 24 k
+ rubygem-rdoc                      noarch                6.3.3-153.fc35                  updates                398 k
+
+Transaction Summary
+======================================================================================================================
+Install  12 Packages
+
+Total download size: 4.7 M
+Installed size: 18 M
+Is this ok [y/N]: y
+Downloading Packages:
+(1/12): ruby-3.0.4-153.fc35.x86_64.rpm                                                 89 kB/s |  40 kB     00:00    
+(2/12): ruby-default-gems-3.0.4-153.fc35.noarch.rpm                                    70 kB/s |  31 kB     00:00    
+(3/12): rubypick-1.1.1-15.fc35.noarch.rpm                                              14 kB/s | 9.9 kB     00:00    
+(4/12): ruby-devel-3.0.4-153.fc35.x86_64.rpm                                          794 kB/s | 267 kB     00:00    
+(5/12): rubygem-bundler-2.2.33-153.fc35.noarch.rpm                                    1.2 MB/s | 373 kB     00:00    
+(6/12): rubygem-io-console-0.5.7-153.fc35.x86_64.rpm                                  240 kB/s |  24 kB     00:00    
+(7/12): rubygem-bigdecimal-3.0.0-153.fc35.x86_64.rpm                                  107 kB/s |  53 kB     00:00    
+(8/12): ruby-libs-3.0.4-153.fc35.x86_64.rpm                                           3.9 MB/s | 3.2 MB     00:00    
+(9/12): rubygem-json-2.6.2-200.fc35.x86_64.rpm                                        659 kB/s |  63 kB     00:00    
+(10/12): rubygem-rdoc-6.3.3-153.fc35.noarch.rpm                                       2.7 MB/s | 398 kB     00:00    
+(11/12): rubygems-3.2.33-153.fc35.noarch.rpm                                          2.2 MB/s | 255 kB     00:00    
+(12/12): rubygem-psych-3.3.2-153.fc35.x86_64.rpm                                      186 kB/s |  50 kB     00:00    
+----------------------------------------------------------------------------------------------------------------------
+Total                                                                                 2.4 MB/s | 4.7 MB     00:01     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                              1/1 
+  Installing       : ruby-libs-3.0.4-153.fc35.x86_64                                                             1/12 
+  Installing       : ruby-3.0.4-153.fc35.x86_64                                                                  2/12 
+  Installing       : rubypick-1.1.1-15.fc35.noarch                                                               3/12 
+  Installing       : rubygem-bigdecimal-3.0.0-153.fc35.x86_64                                                    4/12 
+  Installing       : ruby-default-gems-3.0.4-153.fc35.noarch                                                     5/12 
+  Installing       : rubygem-bundler-2.2.33-153.fc35.noarch                                                      6/12 
+  Installing       : rubygem-io-console-0.5.7-153.fc35.x86_64                                                    7/12 
+  Installing       : rubygem-json-2.6.2-200.fc35.x86_64                                                          8/12 
+  Installing       : rubygem-psych-3.3.2-153.fc35.x86_64                                                         9/12 
+  Installing       : rubygem-rdoc-6.3.3-153.fc35.noarch                                                         10/12 
+  Installing       : rubygems-3.2.33-153.fc35.noarch                                                            11/12 
+  Installing       : ruby-devel-3.0.4-153.fc35.x86_64                                                           12/12 
+  Running scriptlet: ruby-devel-3.0.4-153.fc35.x86_64                                                           12/12 
+  Verifying        : rubypick-1.1.1-15.fc35.noarch                                                               1/12 
+  Verifying        : ruby-3.0.4-153.fc35.x86_64                                                                  2/12 
+  Verifying        : ruby-default-gems-3.0.4-153.fc35.noarch                                                     3/12 
+  Verifying        : ruby-devel-3.0.4-153.fc35.x86_64                                                            4/12 
+  Verifying        : ruby-libs-3.0.4-153.fc35.x86_64                                                             5/12 
+  Verifying        : rubygem-bigdecimal-3.0.0-153.fc35.x86_64                                                    6/12 
+  Verifying        : rubygem-bundler-2.2.33-153.fc35.noarch                                                      7/12 
+  Verifying        : rubygem-io-console-0.5.7-153.fc35.x86_64                                                    8/12 
+  Verifying        : rubygem-json-2.6.2-200.fc35.x86_64                                                          9/12 
+  Verifying        : rubygem-psych-3.3.2-153.fc35.x86_64                                                        10/12 
+  Verifying        : rubygem-rdoc-6.3.3-153.fc35.noarch                                                         11/12 
+  Verifying        : rubygems-3.2.33-153.fc35.noarch                                                            12/12 
+
+Installed:
+  ruby-3.0.4-153.fc35.x86_64                                 ruby-default-gems-3.0.4-153.fc35.noarch                  
+  ruby-devel-3.0.4-153.fc35.x86_64                           ruby-libs-3.0.4-153.fc35.x86_64                          
+  rubygem-bigdecimal-3.0.0-153.fc35.x86_64                   rubygem-bundler-2.2.33-153.fc35.noarch                   
+  rubygem-io-console-0.5.7-153.fc35.x86_64                   rubygem-json-2.6.2-200.fc35.x86_64                       
+  rubygem-psych-3.3.2-153.fc35.x86_64                        rubygem-rdoc-6.3.3-153.fc35.noarch                       
+  rubygems-3.2.33-153.fc35.noarch                            rubypick-1.1.1-15.fc35.noarch                            
+
+Complete!
+[fmachado@localhost Website_Jekyll]$ 
+[fmachado@localhost Website_Jekyll]$ 
+[fmachado@localhost Website_Jekyll]$ 
+[fmachado@localhost Website_Jekyll]$ 
+[fmachado@localhost Website_Jekyll]$ gem install bundler jekyll
+Fetching bundler-2.3.21.gem
+Successfully installed bundler-2.3.21
+Parsing documentation for bundler-2.3.21
+Installing ri documentation for bundler-2.3.21
+Done installing documentation for bundler after 0 seconds
+Fetching unicode-display_width-1.8.0.gem
+Fetching terminal-table-2.0.0.gem
+Fetching safe_yaml-1.0.5.gem
+Fetching rouge-3.30.0.gem
+Fetching forwardable-extended-2.6.0.gem
+Fetching mercenary-0.4.0.gem
+Fetching pathutil-0.16.2.gem
+Fetching liquid-4.0.3.gem
+Fetching rexml-3.2.5.gem
+Fetching kramdown-2.4.0.gem
+Fetching kramdown-parser-gfm-1.1.0.gem
+Fetching ffi-1.15.5.gem
+Fetching rb-inotify-0.10.1.gem
+Fetching rb-fsevent-0.11.1.gem
+Fetching listen-3.7.1.gem
+Fetching jekyll-watch-2.2.1.gem
+Fetching sassc-2.4.0.gem
+Fetching jekyll-sass-converter-2.2.0.gem
+Fetching concurrent-ruby-1.1.10.gem
+Fetching i18n-1.12.0.gem
+Fetching http_parser.rb-0.8.0.gem
+Fetching eventmachine-1.2.7.gem
+Fetching em-websocket-0.5.3.gem
+Fetching colorator-1.1.0.gem
+Fetching jekyll-4.2.2.gem
+Fetching public_suffix-5.0.0.gem
+Fetching addressable-2.8.1.gem
+Successfully installed unicode-display_width-1.8.0
+Successfully installed terminal-table-2.0.0
+Successfully installed safe_yaml-1.0.5
+Successfully installed rouge-3.30.0
+Successfully installed forwardable-extended-2.6.0
+Successfully installed pathutil-0.16.2
+Successfully installed mercenary-0.4.0
+Successfully installed liquid-4.0.3
+Successfully installed rexml-3.2.5
+Successfully installed kramdown-2.4.0
+Successfully installed kramdown-parser-gfm-1.1.0
+Building native extensions. This could take a while...
+Successfully installed ffi-1.15.5
+Successfully installed rb-inotify-0.10.1
+Successfully installed rb-fsevent-0.11.1
+Successfully installed listen-3.7.1
+Successfully installed jekyll-watch-2.2.1
+Building native extensions. This could take a while...
+Successfully installed sassc-2.4.0
+Successfully installed jekyll-sass-converter-2.2.0
+Successfully installed concurrent-ruby-1.1.10
+Successfully installed i18n-1.12.0
+Building native extensions. This could take a while...
+Successfully installed http_parser.rb-0.8.0
+Building native extensions. This could take a while...
+Successfully installed eventmachine-1.2.7
+Successfully installed em-websocket-0.5.3
+Successfully installed colorator-1.1.0
+Successfully installed public_suffix-5.0.0
+Successfully installed addressable-2.8.1
+Successfully installed jekyll-4.2.2
+Parsing documentation for unicode-display_width-1.8.0
+Installing ri documentation for unicode-display_width-1.8.0
+Parsing documentation for terminal-table-2.0.0
+Installing ri documentation for terminal-table-2.0.0
+Parsing documentation for safe_yaml-1.0.5
+Installing ri documentation for safe_yaml-1.0.5
+Parsing documentation for rouge-3.30.0
+Installing ri documentation for rouge-3.30.0
+Parsing documentation for forwardable-extended-2.6.0
+Installing ri documentation for forwardable-extended-2.6.0
+Parsing documentation for pathutil-0.16.2
+Installing ri documentation for pathutil-0.16.2
+Parsing documentation for mercenary-0.4.0
+Installing ri documentation for mercenary-0.4.0
+Parsing documentation for liquid-4.0.3
+Installing ri documentation for liquid-4.0.3
+Parsing documentation for rexml-3.2.5
+Installing ri documentation for rexml-3.2.5
+Parsing documentation for kramdown-2.4.0
+Installing ri documentation for kramdown-2.4.0
+Parsing documentation for kramdown-parser-gfm-1.1.0
+Installing ri documentation for kramdown-parser-gfm-1.1.0
+Parsing documentation for ffi-1.15.5
+Installing ri documentation for ffi-1.15.5
+Parsing documentation for rb-inotify-0.10.1
+Installing ri documentation for rb-inotify-0.10.1
+Parsing documentation for rb-fsevent-0.11.1
+Installing ri documentation for rb-fsevent-0.11.1
+Parsing documentation for listen-3.7.1
+Installing ri documentation for listen-3.7.1
+Parsing documentation for jekyll-watch-2.2.1
+Installing ri documentation for jekyll-watch-2.2.1
+Parsing documentation for sassc-2.4.0
+Installing ri documentation for sassc-2.4.0
+Parsing documentation for jekyll-sass-converter-2.2.0
+Installing ri documentation for jekyll-sass-converter-2.2.0
+Parsing documentation for concurrent-ruby-1.1.10
+Installing ri documentation for concurrent-ruby-1.1.10
+Parsing documentation for i18n-1.12.0
+Installing ri documentation for i18n-1.12.0
+Parsing documentation for http_parser.rb-0.8.0
+unknown encoding name "chunked\r\n\r\n25" for ext/ruby_http_parser/vendor/http-parser-java/tools/parse_tests.rb, skipping
+Installing ri documentation for http_parser.rb-0.8.0
+Parsing documentation for eventmachine-1.2.7
+Installing ri documentation for eventmachine-1.2.7
+Parsing documentation for em-websocket-0.5.3
+Installing ri documentation for em-websocket-0.5.3
+Parsing documentation for colorator-1.1.0
+Installing ri documentation for colorator-1.1.0
+Parsing documentation for public_suffix-5.0.0
+Installing ri documentation for public_suffix-5.0.0
+Parsing documentation for addressable-2.8.1
+Installing ri documentation for addressable-2.8.1
+Parsing documentation for jekyll-4.2.2
+Installing ri documentation for jekyll-4.2.2
+Done installing documentation for unicode-display_width, terminal-table, safe_yaml, rouge, forwardable-extended, pathutil, mercenary, liquid, rexml, kramdown, kramdown-parser-gfm, ffi, rb-inotify, rb-fsevent, listen, jekyll-watch, sassc, jekyll-sass-converter, concurrent-ruby, i18n, http_parser.rb, eventmachine, em-websocket, colorator, public_suffix, addressable, jekyll after 27 seconds
+28 gems installed
+[fmachado@localhost Website_Jekyll]$ 
+[fmachado@localhost Website_Jekyll]$ 
+[fmachado@localhost Website_Jekyll]$ ls -lat
+total 184
+drwxr-xr-x.  3 fmachado fmachado   4096 Aug 27 19:19 .
+-rw-r--r--.  1 fmachado fmachado 159532 Aug 27 19:17 gradfolio-master.zip
+drwx------. 58 fmachado fmachado   4096 Aug 27 19:14 ..
+drwxrwxr-x.  9 fmachado fmachado   4096 Oct 18  2021 gradfolio-master
+[fmachado@localhost Website_Jekyll]$ cd gradfolio-master/
+[fmachado@localhost gradfolio-master]$ jekyll serve --incremental --trace
+Configuration file: /home/fmachado/Dropbox/Website_Jekyll/gradfolio-master/_config.yml
+  Dependency Error: Yikes! It looks like you don't have jekyll-seo-tag or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. If you've run Jekyll with `bundle exec`, ensure that you have included the jekyll-seo-tag gem in your Gemfile as well. The full error message from Ruby is: 'cannot load such file -- jekyll-seo-tag' If you run into trouble, you can find helpful resources at https://jekyllrb.com/help/! 
+/home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:73:in `rescue in block in require_with_graceful_fail': jekyll-seo-tag (Jekyll::Errors::MissingDependencyException)
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:58:in `block in require_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:57:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:57:in `require_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/plugin_manager.rb:30:in `require_gems'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/plugin_manager.rb:22:in `conscientious_require'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/site.rb:131:in `setup'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/site.rb:36:in `initialize'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/build.rb:30:in `new'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/build.rb:30:in `process'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/serve.rb:86:in `block (2 levels) in init_with_program'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/exe/jekyll:15:in `<top (required)>'
+	from /home/fmachado/bin/jekyll:25:in `load'
+	from /home/fmachado/bin/jekyll:25:in `<main>'
+<internal:/usr/share/rubygems/rubygems/core_ext/kernel_require.rb>:85:in `require': cannot load such file -- jekyll-seo-tag (LoadError)
+	from <internal:/usr/share/rubygems/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:60:in `block in require_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:57:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:57:in `require_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/plugin_manager.rb:30:in `require_gems'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/plugin_manager.rb:22:in `conscientious_require'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/site.rb:131:in `setup'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/site.rb:36:in `initialize'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/build.rb:30:in `new'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/build.rb:30:in `process'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/serve.rb:86:in `block (2 levels) in init_with_program'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/exe/jekyll:15:in `<top (required)>'
+	from /home/fmachado/bin/jekyll:25:in `load'
+	from /home/fmachado/bin/jekyll:25:in `<main>'
+[fmachado@localhost gradfolio-master]$ jekyll bundle exec
+fatal: 'jekyll bundle' could not be found. You may need to install the jekyll-bundle gem or a related gem to be able to use this subcommand. 
+[fmachado@localhost gradfolio-master]$ gem install jekyll-bundle
+ERROR:  Could not find a valid gem 'jekyll-bundle' (>= 0) in any repository
+ERROR:  Possible alternatives: jekyll-apple, jekyll-babel, jekyll-binary, jekyll-bitly, jekyll-bland, jekyll-bold, jekyll-bonsai, jekyll-brotli, jekyll-bulma, jekyll-curse
+[fmachado@localhost gradfolio-master]$ gem install jekyll-seo-tag
+Fetching jekyll-seo-tag-2.8.0.gem
+Successfully installed jekyll-seo-tag-2.8.0
+Parsing documentation for jekyll-seo-tag-2.8.0
+Installing ri documentation for jekyll-seo-tag-2.8.0
+Done installing documentation for jekyll-seo-tag after 0 seconds
+1 gem installed
+[fmachado@localhost gradfolio-master]$ jekyll serve --incremental --trace
+Configuration file: /home/fmachado/Dropbox/Website_Jekyll/gradfolio-master/_config.yml
+  Dependency Error: Yikes! It looks like you don't have jekyll-paginate or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. If you've run Jekyll with `bundle exec`, ensure that you have included the jekyll-paginate gem in your Gemfile as well. The full error message from Ruby is: 'cannot load such file -- jekyll-paginate' If you run into trouble, you can find helpful resources at https://jekyllrb.com/help/! 
+/home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:73:in `rescue in block in require_with_graceful_fail': jekyll-paginate (Jekyll::Errors::MissingDependencyException)
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:58:in `block in require_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:57:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:57:in `require_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/plugin_manager.rb:30:in `require_gems'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/plugin_manager.rb:22:in `conscientious_require'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/site.rb:131:in `setup'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/site.rb:36:in `initialize'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/build.rb:30:in `new'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/build.rb:30:in `process'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/serve.rb:86:in `block (2 levels) in init_with_program'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/exe/jekyll:15:in `<top (required)>'
+	from /home/fmachado/bin/jekyll:25:in `load'
+	from /home/fmachado/bin/jekyll:25:in `<main>'
+<internal:/usr/share/rubygems/rubygems/core_ext/kernel_require.rb>:85:in `require': cannot load such file -- jekyll-paginate (LoadError)
+	from <internal:/usr/share/rubygems/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:60:in `block in require_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:57:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:57:in `require_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/plugin_manager.rb:30:in `require_gems'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/plugin_manager.rb:22:in `conscientious_require'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/site.rb:131:in `setup'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/site.rb:36:in `initialize'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/build.rb:30:in `new'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/build.rb:30:in `process'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/serve.rb:86:in `block (2 levels) in init_with_program'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/exe/jekyll:15:in `<top (required)>'
+	from /home/fmachado/bin/jekyll:25:in `load'
+	from /home/fmachado/bin/jekyll:25:in `<main>'
+[fmachado@localhost gradfolio-master]$ gem install jekyll-paginate
+Fetching jekyll-paginate-1.1.0.gem
+Successfully installed jekyll-paginate-1.1.0
+Parsing documentation for jekyll-paginate-1.1.0
+Installing ri documentation for jekyll-paginate-1.1.0
+Done installing documentation for jekyll-paginate after 0 seconds
+1 gem installed
+[fmachado@localhost gradfolio-master]$ jekyll serve --incremental --trace
+Configuration file: /home/fmachado/Dropbox/Website_Jekyll/gradfolio-master/_config.yml
+  Dependency Error: Yikes! It looks like you don't have jekyll-email-protect or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. If you've run Jekyll with `bundle exec`, ensure that you have included the jekyll-email-protect gem in your Gemfile as well. The full error message from Ruby is: 'cannot load such file -- jekyll-email-protect' If you run into trouble, you can find helpful resources at https://jekyllrb.com/help/! 
+/home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:73:in `rescue in block in require_with_graceful_fail': jekyll-email-protect (Jekyll::Errors::MissingDependencyException)
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:58:in `block in require_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:57:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:57:in `require_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/plugin_manager.rb:30:in `require_gems'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/plugin_manager.rb:22:in `conscientious_require'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/site.rb:131:in `setup'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/site.rb:36:in `initialize'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/build.rb:30:in `new'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/build.rb:30:in `process'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/serve.rb:86:in `block (2 levels) in init_with_program'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/exe/jekyll:15:in `<top (required)>'
+	from /home/fmachado/bin/jekyll:25:in `load'
+	from /home/fmachado/bin/jekyll:25:in `<main>'
+<internal:/usr/share/rubygems/rubygems/core_ext/kernel_require.rb>:85:in `require': cannot load such file -- jekyll-email-protect (LoadError)
+	from <internal:/usr/share/rubygems/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:60:in `block in require_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:57:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:57:in `require_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/plugin_manager.rb:30:in `require_gems'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/plugin_manager.rb:22:in `conscientious_require'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/site.rb:131:in `setup'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/site.rb:36:in `initialize'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/build.rb:30:in `new'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/build.rb:30:in `process'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/serve.rb:86:in `block (2 levels) in init_with_program'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/exe/jekyll:15:in `<top (required)>'
+	from /home/fmachado/bin/jekyll:25:in `load'
+	from /home/fmachado/bin/jekyll:25:in `<main>'
+[fmachado@localhost gradfolio-master]$ gem install jekyll-email-protect
+Fetching jekyll-email-protect-1.1.0.gem
+Successfully installed jekyll-email-protect-1.1.0
+Parsing documentation for jekyll-email-protect-1.1.0
+Installing ri documentation for jekyll-email-protect-1.1.0
+Done installing documentation for jekyll-email-protect after 0 seconds
+1 gem installed
+[fmachado@localhost gradfolio-master]$ jekyll serve --incremental --trace
+Configuration file: /home/fmachado/Dropbox/Website_Jekyll/gradfolio-master/_config.yml
+  Dependency Error: Yikes! It looks like you don't have jekyll-target-blank or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. If you've run Jekyll with `bundle exec`, ensure that you have included the jekyll-target-blank gem in your Gemfile as well. The full error message from Ruby is: 'cannot load such file -- jekyll-target-blank' If you run into trouble, you can find helpful resources at https://jekyllrb.com/help/! 
+/home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:73:in `rescue in block in require_with_graceful_fail': jekyll-target-blank (Jekyll::Errors::MissingDependencyException)
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:58:in `block in require_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:57:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:57:in `require_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/plugin_manager.rb:30:in `require_gems'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/plugin_manager.rb:22:in `conscientious_require'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/site.rb:131:in `setup'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/site.rb:36:in `initialize'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/build.rb:30:in `new'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/build.rb:30:in `process'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/serve.rb:86:in `block (2 levels) in init_with_program'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/exe/jekyll:15:in `<top (required)>'
+	from /home/fmachado/bin/jekyll:25:in `load'
+	from /home/fmachado/bin/jekyll:25:in `<main>'
+<internal:/usr/share/rubygems/rubygems/core_ext/kernel_require.rb>:85:in `require': cannot load such file -- jekyll-target-blank (LoadError)
+	from <internal:/usr/share/rubygems/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:60:in `block in require_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:57:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/external.rb:57:in `require_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/plugin_manager.rb:30:in `require_gems'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/plugin_manager.rb:22:in `conscientious_require'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/site.rb:131:in `setup'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/site.rb:36:in `initialize'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/build.rb:30:in `new'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/build.rb:30:in `process'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/serve.rb:86:in `block (2 levels) in init_with_program'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/exe/jekyll:15:in `<top (required)>'
+	from /home/fmachado/bin/jekyll:25:in `load'
+	from /home/fmachado/bin/jekyll:25:in `<main>'
+[fmachado@localhost gradfolio-master]$ ls -lat
+total 236
+drwxrwxr-x. 10 fmachado fmachado  4096 Aug 27 19:20 .
+drwxr-xr-x.  3 fmachado fmachado  4096 Aug 27 19:20 .jekyll-cache
+drwxr-xr-x.  3 fmachado fmachado  4096 Aug 27 19:19 ..
+-rw-rw-r--.  1 fmachado fmachado  9847 Oct 18  2021 android-chrome-192x192.png
+-rw-rw-r--.  1 fmachado fmachado 26863 Oct 18  2021 android-chrome-512x512.png
+-rw-rw-r--.  1 fmachado fmachado  8872 Oct 18  2021 apple-touch-icon.png
+-rw-rw-r--.  1 fmachado fmachado   540 Oct 18  2021 archive.html
+drwxrwxr-x.  4 fmachado fmachado  4096 Oct 18  2021 assets
+drwxrwxr-x.  2 fmachado fmachado  4096 Oct 18  2021 blog
+-rw-rw-r--.  1 fmachado fmachado  1133 Oct 18  2021 _config.yml
+-rw-rw-r--.  1 fmachado fmachado   673 Oct 18  2021 favicon-16x16.png
+-rw-rw-r--.  1 fmachado fmachado  1249 Oct 18  2021 favicon-32x32.png
+-rw-rw-r--.  1 fmachado fmachado 15406 Oct 18  2021 favicon.ico
+-rw-rw-r--.  1 fmachado fmachado    50 Oct 18  2021 .gitignore
+drwxrwxr-x.  2 fmachado fmachado  4096 Oct 18  2021 _includes
+-rw-rw-r--.  1 fmachado fmachado   845 Oct 18  2021 index.md
+drwxrwxr-x.  2 fmachado fmachado  4096 Oct 18  2021 _layouts
+-rw-rw-r--.  1 fmachado fmachado  1067 Oct 18  2021 LICENSE
+drwxrwxr-x.  2 fmachado fmachado  4096 Oct 18  2021 _pages
+drwxrwxr-x.  2 fmachado fmachado  4096 Oct 18  2021 _posts
+drwxrwxr-x.  2 fmachado fmachado  4096 Oct 18  2021 _projects
+-rw-rw-r--.  1 fmachado fmachado  1570 Oct 18  2021 README.md
+-rw-rw-r--.  1 fmachado fmachado   263 Oct 18  2021 site.webmanifest
+[fmachado@localhost gradfolio-master]$ gem install jekyll-target-blank
+Fetching jekyll-target-blank-2.0.0.gem
+Fetching nokogiri-1.13.8-x86_64-linux.gem
+Successfully installed nokogiri-1.13.8-x86_64-linux
+Successfully installed jekyll-target-blank-2.0.0
+Parsing documentation for nokogiri-1.13.8-x86_64-linux
+Installing ri documentation for nokogiri-1.13.8-x86_64-linux
+Parsing documentation for jekyll-target-blank-2.0.0
+Installing ri documentation for jekyll-target-blank-2.0.0
+Done installing documentation for nokogiri, jekyll-target-blank after 1 seconds
+2 gems installed
+[fmachado@localhost gradfolio-master]$ jekyll serve --incremental --trace
+Configuration file: /home/fmachado/Dropbox/Website_Jekyll/gradfolio-master/_config.yml
+            Source: /home/fmachado/Dropbox/Website_Jekyll/gradfolio-master
+       Destination: /home/fmachado/Dropbox/Website_Jekyll/gradfolio-master/_site
+ Incremental build: enabled
+      Generating... 
+                    done in 0.361 seconds.
+ Auto-regeneration: enabled for '/home/fmachado/Dropbox/Website_Jekyll/gradfolio-master'
+<internal:/usr/share/rubygems/rubygems/core_ext/kernel_require.rb>:85:in `require': cannot load such file -- webrick (LoadError)
+	from <internal:/usr/share/rubygems/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/serve/servlet.rb:3:in `<top (required)>'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/serve.rb:179:in `require_relative'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/serve.rb:179:in `setup'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/serve.rb:100:in `process'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/lib/jekyll/commands/serve.rb:86:in `block (2 levels) in init_with_program'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
+	from /home/fmachado/.local/share/gem/ruby/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
+	from /home/fmachado/.local/share/gem/ruby/gems/jekyll-4.2.2/exe/jekyll:15:in `<top (required)>'
+	from /home/fmachado/bin/jekyll:25:in `load'
+	from /home/fmachado/bin/jekyll:25:in `<main>'
+[fmachado@localhost gradfolio-master]$ gem install webrick
+Fetching webrick-1.7.0.gem
+Successfully installed webrick-1.7.0
+Parsing documentation for webrick-1.7.0
+Installing ri documentation for webrick-1.7.0
+Done installing documentation for webrick after 0 seconds
+1 gem installed
+[fmachado@localhost gradfolio-master]$ jekyll serve --incremental --trace
+Configuration file: /home/fmachado/Dropbox/Website_Jekyll/gradfolio-master/_config.yml
+            Source: /home/fmachado/Dropbox/Website_Jekyll/gradfolio-master
+       Destination: /home/fmachado/Dropbox/Website_Jekyll/gradfolio-master/_site
+ Incremental build: enabled
+      Generating... 
+                    done in 0.026 seconds.
+ Auto-regeneration: enabled for '/home/fmachado/Dropbox/Website_Jekyll/gradfolio-master'
+    Server address: http://127.0.0.1:4000/gradfolio/
+  Server running... press ctrl-c to stop.
+[2022-08-27 19:24:34] ERROR `/' not found.
+[2022-08-27 19:24:34] ERROR `/apple-touch-icon.png' not found.
+[2022-08-27 19:24:34] ERROR `/favicon-32x32.png' not found.
+[2022-08-27 19:24:41] ERROR `/index.html' not found.
+[2022-08-27 19:24:42] ERROR `/favicon.ico' not found.
+  C-c C-c[fmachado@localhost gradfolio-master]$
+[fmachado@localhost gradfolio-master]$ 
+[fmachado@localhost gradfolio-master]$ ls -lat
+total 256
+-rw-r--r--.  1 fmachado fmachado  5479 Aug 27 19:24 .jekyll-metadata
+drwxrwxr-x. 11 fmachado fmachado  4096 Aug 27 19:23 .
+drwxr-xr-x.  6 fmachado fmachado  4096 Aug 27 19:23 _site
+drwxr-xr-x.  3 fmachado fmachado  4096 Aug 27 19:20 .jekyll-cache
+drwxr-xr-x.  3 fmachado fmachado  4096 Aug 27 19:19 ..
+-rw-rw-r--.  1 fmachado fmachado  9847 Oct 18  2021 android-chrome-192x192.png
+-rw-rw-r--.  1 fmachado fmachado 26863 Oct 18  2021 android-chrome-512x512.png
+-rw-rw-r--.  1 fmachado fmachado  8872 Oct 18  2021 apple-touch-icon.png
+-rw-rw-r--.  1 fmachado fmachado   540 Oct 18  2021 archive.html
+drwxrwxr-x.  4 fmachado fmachado  4096 Oct 18  2021 assets
+drwxrwxr-x.  2 fmachado fmachado  4096 Oct 18  2021 blog
+-rw-rw-r--.  1 fmachado fmachado  1133 Oct 18  2021 _config.yml
+-rw-rw-r--.  1 fmachado fmachado   673 Oct 18  2021 favicon-16x16.png
+-rw-rw-r--.  1 fmachado fmachado  1249 Oct 18  2021 favicon-32x32.png
+-rw-rw-r--.  1 fmachado fmachado 15406 Oct 18  2021 favicon.ico
+-rw-rw-r--.  1 fmachado fmachado    50 Oct 18  2021 .gitignore
+drwxrwxr-x.  2 fmachado fmachado  4096 Oct 18  2021 _includes
+-rw-rw-r--.  1 fmachado fmachado   845 Oct 18  2021 index.md
+drwxrwxr-x.  2 fmachado fmachado  4096 Oct 18  2021 _layouts
+-rw-rw-r--.  1 fmachado fmachado  1067 Oct 18  2021 LICENSE
+drwxrwxr-x.  2 fmachado fmachado  4096 Oct 18  2021 _pages
+drwxrwxr-x.  2 fmachado fmachado  4096 Oct 18  2021 _posts
+drwxrwxr-x.  2 fmachado fmachado  4096 Oct 18  2021 _projects
+-rw-rw-r--.  1 fmachado fmachado  1570 Oct 18  2021 README.md
+-rw-rw-r--.  1 fmachado fmachado   263 Oct 18  2021 site.webmanifest
+[fmachado@localhost gradfolio-master]$ jekyll serve --incremental --trace
+Configuration file: /home/fmachado/Dropbox/Website_Jekyll/gradfolio-master/_config.yml
+            Source: /home/fmachado/Dropbox/Website_Jekyll/gradfolio-master
+       Destination: /home/fmachado/Dropbox/Website_Jekyll/gradfolio-master/_site
+ Incremental build: enabled
+      Generating... 
+                    done in 0.026 seconds.
+ Auto-regeneration: enabled for '/home/fmachado/Dropbox/Website_Jekyll/gradfolio-master'
+    Server address: http://127.0.0.1:4000/gradfolio/
+  Server running... press ctrl-c to stop.
+[2022-08-27 19:25:11] ERROR `/gradfolio' not found.
+[2022-08-27 19:25:16] ERROR `/gradfolio/projects/apple-touch-icon.png' not found.
+[2022-08-27 19:25:16] ERROR `/gradfolio/projects/favicon-32x32.png' not found.
+[2022-08-27 19:25:17] ERROR `/gradfolio/blog/apple-touch-icon.png' not found.
+[2022-08-27 19:25:17] ERROR `/gradfolio/blog/favicon-32x32.png' not found.
+[2022-08-27 19:25:19] ERROR `/gradfolio/archive/apple-touch-icon.png' not found.
+[2022-08-27 19:25:19] ERROR `/gradfolio/archive/favicon-32x32.png' not found.
+[2022-08-27 19:25:20] ERROR `/gradfolio/blog/2019/jelly-fish/apple-touch-icon.png' not found.
+[2022-08-27 19:25:20] ERROR `/gradfolio/blog/2019/jelly-fish/favicon-32x32.png' not found.
+      Regenerating: 1 file(s) changed at 2022-08-27 19:31:18
+                    index.md
+                    ...done in 0.256894282 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2022-08-27 19:31:21
+                    index.md
+                    ...done in 0.027657899 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2022-08-27 22:46:26
+                    index.md
+                    ...done in 0.033150429 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2022-08-27 22:51:38
+                    _projects/1_project.md
+                    _projects/.#1_project.md
+                    ...done in 0.040417687 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2022-08-27 22:51:41
+                    _projects/1_project.md
+                    ...done in 0.03583994 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2022-08-27 22:52:25
+                    _includes/social-footer.html
+                    _includes/.#social-footer.html
+                    ...done in 0.210207824 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2022-08-27 22:52:28
+                    _includes/social-footer.html
+                    ...done in 0.023212233 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2022-08-27 22:52:33
+                    _includes/.#social-footer.html
+                    ...done in 0.047522356 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2022-08-27 22:52:34
+                    _includes/social-footer.html
+                    _includes/.#social-footer.html
+                    ...done in 0.13377928 seconds.
+                    
+[2022-08-27 22:52:48] ERROR `/favicon.ico' not found.

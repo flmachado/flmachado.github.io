@@ -1,0 +1,14 @@
+---
+layout: publication
+peerReview : true
+title : "Emergent hydrodynamics in a strongly interacting dipolar spin ensemble"
+authors : Chong Zu<sup>&dagger;</sup>, <mark><u><strong>Francisco Machado</strong></u></mark><sup>&dagger;</sup>**, Bingtian Ye<sup>&dagger;</sup>, Soonwon Choi, Bryce Kobrin, Thomas Mittiga, Satcher Hsieh, Prabudhya Bhattacharyya, Matthew Markham, Dan Twitchen, Andrey Jarmola, Dmitry Budker, Chris R. Laumann, Joel E. Moore, Norman Y. Yao   
+arXivId : arXiv:2104.07678
+arXivLink : https://arxiv.org/abs/2104.07678
+pubName : Nature
+pubLink : https://www.nature.com/articles/s41586-021-03763-1
+pubYear : 2021
+date : 2021-04-21
+---
+
+Conventional wisdom holds that macroscopic classical phenomena naturally emerge from microscopic quantum laws. However, despite this mantra, building direct connections between these two descriptions has remained an enduring scientific challenge. In particular, it is difficult to quantitatively predict the emergent "classical" properties of a system (e.g. diffusivity, viscosity, compressibility) from a generic microscopic quantum Hamiltonian. Here, we introduce a hybrid solid-state spin platform, where the underlying disordered, dipolar quantum Hamiltonian gives rise to the emergence of unconventional spin diffusion at nanometer length scales. In particular, the combination of positional disorder and on-site random fields leads to diffusive dynamics that are Fickian yet non-Gaussian. Finally, by tuning the underlying parameters within the spin Hamiltonian via a combination of static and driven fields, we demonstrate direct control over the emergent spin diffusion coefficient. Our work opens the door to investigating hydrodynamics in many-body quantum spin systems. 
