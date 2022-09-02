@@ -13,7 +13,7 @@ published: true
   {% unless pub.peerReview %}
   <li>
   <p> 
-      <a href="{{ pub.url | prepend: site.baseurl | prepend: site.url }}">  {{ pub.title }} 
+      <a href="{{ pub.url  }}">  {{ pub.title }}  #| prepend site.url
       </a> <br> 
       <span style="font-size:18px"> {{ pub.authors }} </span> <br> 
       <a href="{{ pub.arXivLink}}"> {{ pub.arXivId }} </a>
@@ -34,7 +34,7 @@ published: true
   {% if pub.peerReview %}
   <li>
   <p>
-      <a href="{{ pub.url | prepend: site.baseurl | prepend: site.url }}">  {{ pub.title }} 
+      <a href="{{ pub.url}}">  {{ pub.title }}  # | prepend: site.url 
       </a> <br> 
       <span style="font-size:18px"> {{ pub.authors }} </span> <br>
       {% if pub.arXivLink %}
