@@ -3,7 +3,7 @@ layout: about
 permalink: /
 profile:
   align: right
-  image: cara_2022.jpg 
+  image: cara_2023.png
 published: true
 ---
 
