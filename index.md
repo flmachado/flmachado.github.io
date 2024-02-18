@@ -19,7 +19,7 @@ Originally from Portugal, Physics has taken me through many places:
 
 
 
-See [research](research) for an overview of my research interests and [publications](publications) (or below) for a complete list of my publications.
+See [research](research) for an overview of my research interests and [the publications below](publications) (or <a href="http://arxiv.org/a/machado_f_1">arXiv</a>) for a complete list of my publications.
 
 To contact me: fmachado at cfa dot harvard dot edu
 
