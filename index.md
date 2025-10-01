@@ -9,8 +9,9 @@ published: true
 
 **Hello!** 👋 
 
-My name is Francisco Machado and I am a Group Leader in the Quantum Internet Division of QuTech at TU Delft.
-Broadly, my work explores what happens when many quantum systems are brought together, and how we can leverage this complexity to find novel ways to communicate, compute, sense, and simulate complext many-body systems.
+My name is Francisco Machado and I am a Group Leader at <a href="http://www.qutech.nl">QuTech</a> in TU Delft.
+
+My work explores what happens when many quantum systems are brought together, and how we can leverage this complexity to find novel ways to communicate, compute, sense, and simulate complex many-body phenomena.
 
 See [research](research) for an overview of my research interests and [the publications below](publications) (or <a href="http://arxiv.org/a/machado_f_1">arXiv</a> or <a href="https://scholar.google.com/citations?user=P4aFRlUAAAAJ&hl=en">Google Scholar</a>) for a complete list of my publications.
 
