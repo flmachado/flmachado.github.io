@@ -9,19 +9,23 @@ published: true
 
 **Hello!** 👋 
 
-My name is Francisco Machado and I am a theoretical physicist working at the intersection of atomic physics and condensed matter.
+My name is Francisco Machado and I am a Group Leader in the Quantum Internet Division of QuTech at TU Delft.
+Broadly, my work explores what happens when many quantum systems are brought together, and how we can leverage this complexity to find novel ways to communicate, compute, sense, and simulate complext many-body systems.
+
+See [research](research) for an overview of my research interests and [the publications below](publications) (or <a href="http://arxiv.org/a/machado_f_1">arXiv</a> or <a href="https://scholar.google.com/citations?user=P4aFRlUAAAAJ&hl=en">Google Scholar</a>) for a complete list of my publications.
+
+If you are interested in exploring these directions for a Masters, PhD, or postdoc, reach out!
 
 Originally from Portugal, Physics has taken me through many places:
-- 2022-present - **ITAMP Fellow** at the Harvard-Smithsonian Center for Astrophysics
+- 2025-Present - **Group Leader** at the Quantum Internet Division of QuTech at TU Delft
+- 2022-2025 - **ITAMP Fellow** at the Harvard-Smithsonian Center for Astrophysics
 - 2016-2022 - **PhD** in Physics at UC Berkeley (advised by Prof. Norman Yao)
 - 2013-2016 - **Bachelor of Science** in Physics at MIT
 - 2012-2013 - Physics program at University of Coimbra
 
+To contact me: flmachado42 at gmail dot com
 
-
-See [research](research) for an overview of my research interests and [the publications below](publications) (or <a href="http://arxiv.org/a/machado_f_1">arXiv</a>) for a complete list of my publications.
-
-To contact me: fmachado at cfa dot harvard dot edu
+(Updated website and email forthcoming!)
 
 
 # Pre-prints
