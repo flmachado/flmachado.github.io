@@ -12,7 +12,7 @@ kramdown:
   syntax_highlighter: rouge
 
 title: Francisco Machado
-description: ITAMP Fellow | Harvard University
+description: Group Leader | QuTech @ TU Delft
 
 baseurl: / #name of GitHub repository
 url: "fmachado.eu" #custom url to be used instead of GitHub repository
