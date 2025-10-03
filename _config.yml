@@ -16,7 +16,7 @@ description: Group Leader | QuTech @ TU Delft
 
 baseurl: / #name of GitHub repository
 url: "fmachado.eu" #custom url to be used instead of GitHub repository
-email: fmachado@cfa.harvard.edu
+email: f.machado@tudelft.nl
 
 highlighter: rouge
 markdown: kramdown
