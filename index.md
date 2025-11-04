@@ -16,7 +16,7 @@ My work explores what happens when many quantum systems are brought together, an
 See [research](research) for an overview of my research interests and [the publications below](publications) (or <a href="http://arxiv.org/a/machado_f_1">arXiv</a> or <a href="https://scholar.google.com/citations?user=P4aFRlUAAAAJ&hl=en">Google Scholar</a>) for a complete list of my publications.
 
 If you are interested in exploring these directions for a Masters, PhD, or postdoc, reach out!
-Here is the <a href="https://qutech.nl/lab/machado-lab/">group's website</a>!
+Here is the <a href="https://qutech.nl/lab/machado-group/">group's website</a>!
 
 Originally from Portugal, Physics has taken me through many places:
 - 2025-Present - **Group Leader** at the Quantum Internet Division of QuTech at TU Delft
