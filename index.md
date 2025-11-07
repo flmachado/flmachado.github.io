@@ -27,8 +27,6 @@ Originally from Portugal, Physics has taken me through many places:
 
 To contact me: fmachado at tudelft dot nl
 
-(Updated website and email forthcoming!)
-
 
 # Pre-prints
 <ol>
