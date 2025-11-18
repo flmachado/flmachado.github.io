@@ -25,7 +25,7 @@ Originally from Portugal, Physics has taken me through many places:
 - 2013-2016 - **Bachelor of Science** in Physics at MIT
 - 2012-2013 - Physics program at University of Coimbra
 
-To contact me: fmachado at tudelft dot nl
+To contact me: f dot machado at tudelft dot nl
 
 
 # Pre-prints
